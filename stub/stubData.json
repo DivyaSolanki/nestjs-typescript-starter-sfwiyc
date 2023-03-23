@@ -1,0 +1,63 @@
+{
+  "claimStatusList": [
+      {
+          "patientDetails": {
+              "firstName": "John",
+              "lastName": "Smith"
+          },
+          "claimDetails": {
+              "claimNumber": "CL34246334",
+              "dateSubmitted": "2007-04-26T00:00:00",
+              "claimStatus": "ADDITIONAL_INFO_REQUIRED"
+          }
+      },
+      {
+          "patientDetails": {
+              "firstName": "John",
+              "lastName": "Smith"
+          },
+          "claimDetails": {
+              "claimNumber": "CL34243334",
+              "dateSubmitted": "2010-04-26T00:00:00",
+              "claimStatus": "COMPLETED"
+          }
+      },
+      {
+          "patientDetails": {
+              "firstName": "Steve",
+              "lastName": "Bernard"
+          },
+          "claimDetails": {
+              "claimNumber": "CL34234334",
+              "dateSubmitted": "2013-04-26T00:00:00",
+              "claimStatus": "NOT_RECEIVED"
+          }
+      }
+  ],
+  "documentList": [
+      {
+          "categoryName": "Certificate",
+          "status": "Received",
+          "documents": [
+              {
+                  "documentName": "Certificate1.pdf",
+                  "fileSize": 2000000
+              },
+              {
+                  "documentName": "Certificate2.pdf",
+                  "fileSize": 2500000
+              },
+              {
+                  "documentName": "Certificate3.pdf",
+                  "fileSize": 1000000
+              }
+          ]
+      },
+      {
+          "categoryId": "MEDICAL_REPORTS",
+          "categoryName": "Medical Reports",
+          "status": "Pending",
+          "documents": []
+      }
+  ]
+}
